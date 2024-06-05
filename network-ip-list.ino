@@ -1,3 +1,6 @@
+// Proximos desenvolvimentos
+// Separar arquivos desenvolver OTA e pegar credenciais de rede via webserver
+
 #include <WiFi.h> // Inclui a biblioteca WiFi para ESP32
 #include <ESP32Ping.h> // Inclui a biblioteca ESP32Ping para a funcionalidade de ping
 
