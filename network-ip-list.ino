@@ -68,7 +68,7 @@ void scanNetwork() {
   IPAddress network = localIP & subnet; // Calcula o endereço de rede usando AND bit a bit entre o IP local e a máscara de sub-rede
   IPAddress broadcast = network | ~subnet; // Calcula o endereço de broadcast usando OR bit a bit entre o endereço de rede e o inverso da máscara de sub-rede
 
-  // Imprime a faixa de rede na saída serial
+  // Imprime a faixa de rede na saída serial.
   Serial.print("Network: ");
   Serial.println(network);
   Serial.print("Broadcast: ");
