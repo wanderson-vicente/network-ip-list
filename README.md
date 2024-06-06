@@ -68,4 +68,4 @@ A operação OR bit a bit é usada aqui porque queremos manter os bits do networ
 ### Autor
 Wanderson Vicente
 Data
-04/07/2024
+04/06/2024
